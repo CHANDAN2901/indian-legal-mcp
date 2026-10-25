@@ -1,0 +1,18 @@
+# Workspace root: one lockfile + one venv for every MCP server in servers/.
+# Each server is its own installable package (published to PyPI in week 10).
+[tool.uv.workspace]
+members = ["servers/*"]
+
+[dependency-groups]
+dev = ["pytest>=8.4", "ruff>=0.14"]
+
+[tool.pytest.ini_options]
+testpaths = ["servers"]
+addopts = "--import-mode=importlib"
+
+[tool.ruff]
+line-length = 120
+src = ["servers/*/src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

@@ -1,0 +1,11 @@
+{"at": "2026-10-25 16:30", "model": "gpt-5.4-mini", "score": 0.96, "misses": [{"question": "Open this judgment and summarise the holding: https://indiankanoon.org/doc/168671544/", "got": "fetch_url", "expected": ["get_judgment"]}]}
+{"at": "2026-10-25 16:31", "model": "gpt-5.4-mini", "score": 1.0, "misses": []}
+{"at": "2026-10-25 16:31", "model": "gpt-5.4-mini", "score": 0.9666666666666667, "misses": [{"question": "Open this judgment and summarise the holding: https://indiankanoon.org/doc/168671544/", "got": "search_cases", "expected": ["get_judgment"]}]}
+{"at": "2026-10-25 16:32", "model": "gpt-5.4-mini", "score": 1.0, "misses": []}
+{"at": "2026-10-25 16:33", "model": "gpt-4.1-mini", "score": 0.9333333333333333, "misses": [{"question": "Open this judgment and summarise the holding: https://indiankanoon.org/doc/168671544/", "got": "fetch_url", "expected": ["get_judgment"]}, {"question": "Summarise this article: https://www.livelaw.in/top-stories/supreme-court-privacy-ruling-2026", "got": "search_web", "expected": ["fetch_url"]}]}
+{"at": "2026-10-25 16:34", "model": "gpt-5.4-mini", "score": 1.0, "misses": []}
+{"at": "2026-10-25 16:34", "model": "gpt-5.4-mini", "score": 1.0, "misses": []}
+{"at": "2026-10-25 16:35", "model": "gpt-5.4-mini", "score": 1.0, "misses": []}
+{"at": "2026-10-25 16:36", "model": "gpt-4.1-mini", "score": 0.9333333333333333, "misses": [{"question": "Read the full judgment for case_id 91938676.", "got": "search_cases", "expected": ["get_judgment"]}, {"question": "Summarise this article: https://www.livelaw.in/top-stories/supreme-court-privacy-ruling-2026", "got": "search_web", "expected": ["fetch_url"]}]}
+{"at": "2026-10-25 16:36", "model": "gpt-4.1-mini", "score": 0.9666666666666667, "misses": [{"question": "Read the full judgment for case_id 91938676.", "got": "search_cases", "expected": ["get_judgment"]}]}
+{"at": "2026-10-25 16:57", "model": "gpt-5.4-mini", "score": 1.0, "misses": []}

@@ -1,0 +1,15 @@
+[project]
+name = "supabase-reader-mcp"
+version = "0.1.0"
+description = "Read-only MCP server for exploring and querying a Supabase (or any Postgres) database"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["mcp>=2.3", "psycopg[binary]>=3.2", "pydantic>=2.12"]
+
+[project.scripts]
+supabase-reader-mcp = "supabase_reader_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,15 @@
+[project]
+name = "indiankanoon-mcp"
+version = "0.1.0"
+description = "MCP server for searching Indian court judgments via the IndianKanoon API"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["mcp>=2.3", "httpx2>=2.10", "pydantic>=2.12"]
+
+[project.scripts]
+indiankanoon-mcp = "indiankanoon_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
